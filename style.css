@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+.container {
+    background-color: #e4f9f5;
+    max-width: 1000px;
+    height: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/*=======================
+header
+=======================*/
+img {
+    height: 120px;
+    width: 100px;
+    border: white solid 3px;
+    border-radius: 50%;
+    float: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #119991;
+}
+
+.bio {
+    float: left;
+    margin: 30px;
+}
+
+.contact {
+    float: right;
+    margin: 30px;
+}
+
+.contact a {
+    color: #116799;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: tomato;
+    cursor: alias;
+}
+
+.div-clear {
+    clear: both;
+}
+
+hr {
+    border: black solid 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/*=======================
+main
+=======================*/
+
+.left-div {
+    width: 30%;
+    float: left;
+}
+
+.right-div {
+    width: 70%;
+    float: right;
+}
+
+.hr {
+    border: rgb(0, 0, 0) solid 1px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/*=======================
+language-skills-section
+=======================*/
+
+ul {
+    list-style-type: square;
+}
+
+/*=======================
+language-skills-section
+=======================*/
+
+.lan-left-div {
+    float: left;
+    width: 45%;
+}
+
+.lan-right-div {
+    float: right;
+    width: 45%;
+}
+
+/*=======================
+education-section
+=======================*/
+
+.edu-div-left {
+    float: left;
+    width: 45%;
+}
+
+.edu-div-right {
+    float: right;
+    width: 45%;
+}
+
+/*=======================
+course-certifications-section
+=======================*/
+
+.credential-id {
+    color: #1993cc;
+}
+
+.cre-id-left {
+    float: left;
+    width: 45%;
+}
+
+.cre-id-right {
+    float: right;
+    width: 45%;
+}
+
+/*=======================
+reference-section
+=======================*/
+.ref-div-left {
+    float: left;
+    width: 45%;
+}
+
+.ref-div-right {
+    float: right;
+    width: 45%;
+}
+
+/*=======================
+footer
+=======================*/
+footer {
+    background-color: cornsilk;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-bar a {
+    color: rgb(12, 187, 240);
+    text-decoration: none;
+    margin: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.nav-bar a:hover {
+    color: #0eb46f;
+    cursor: alias;
+}
+
+.copyright {
+    font-size: large;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.copy:hover {
+    color: red;
+    cursor: none;
+}
+
+.mehedi a {
+    color: tomato;
+    text-decoration: none;
+}
+
+.mehedi a:hover {
+    color: aqua;
+    cursor: alias;
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+    color: rgb(223, 144, 41);
+    cursor: none;
+}
+
+@media screen and (max-width: 700px) {
+    .info-section,
+    .work-section,
+    .key-skills-section,
+    .language-skills,
+    .education-section,
+    .course-certificates-section,
+    .reference-section {
+        display: flex;
+        flex-flow: wrap column;
+    }
+
+    .info-section > div,
+    .work-section > div,
+    .key-skills-section > div,
+    .language-skills > div,
+    .education-section > div,
+    .course-certificates-section > div,
+    .reference-section > div {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .right-div {
+        display: flex;
+        flex-flow: wrap column;
+    }
+
+    .right-div > div {
+        margin: 15px;
+    }
+}
