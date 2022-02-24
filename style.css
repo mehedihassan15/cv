@@ -240,3 +240,14 @@ h6:hover {
         margin: 15px;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .nav-bar {
+        display: flex;
+        flex-flow: wrap row;
+        justify-content: center;
+    }
+    .nav-bar a {
+        margin: 10px;
+    }
+}
